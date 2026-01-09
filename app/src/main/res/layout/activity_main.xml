@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0px"
+    android:background="@drawable/unnamed"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="273dp"
+        android:layout_height="315dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="59dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Ad"
+            android:inputType="text"
+            android:textColorHint="#121111" />
+
+        <EditText
+            android:id="@+id/edittext2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Yaş"
+            android:inputType="text"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/edittext3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Boy"
+            android:inputType="text"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/edittext4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Kilo"
+            android:inputType="text"
+            android:textColorHint="#050505" />
+
+        <EditText
+            android:id="@+id/edittext5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Adım Sayısı"
+            android:inputType="text"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/edittext6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Okuduğunuz Sayfa Sayısı"
+            android:inputType="text"
+            android:textColorHint="#020202"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edittext7"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Spor Yaptığınız Süre(dk)"
+            android:inputType="text"
+            android:textColorHint="#000000" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="127dp"
+        android:backgroundTint="#02F80C"
+        android:text="GÖNDER"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="383dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="GÜNÜNÜN NASIL GEÇTİĞİNİ ÖĞREN"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
